@@ -1,6 +1,7 @@
 #hero{
-    background-image: url();
+    background-image: url(https://cdn.pocket-lint.com/r/s/970x/assets/images/151442-cameras-feature-stunning-photos-from-the-national-sony-world-photography-awards-2020-image1-evuxphd3mr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 700px;
-    background-repeat: no-repeat;
 }
