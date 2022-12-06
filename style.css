@@ -163,3 +163,13 @@ span{
     display: flex;
     justify-content: space-between;
 }
+
+.item_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#unique{
+    width: 50vw;
+}

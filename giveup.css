@@ -1,0 +1,12 @@
+.item_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name-price{
+    display: flex;
+    justify-content: space-between;
+    width: 244px;
+    text-align: center;
+}
