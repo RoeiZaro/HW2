@@ -5,6 +5,8 @@
 div{
     margin: 0px;
 }
+
+/*set the first part (size&background)*/
 #hero{
     height: 600px;
     background-image: url(./Photos/top\ background2.jpg);
@@ -12,30 +14,41 @@ div{
     background-size: cover;   
 }
 
+/*define h1 has italic font without up&down margin*/
 h1{
  font-style: italic; /*find better*/
  margin-top: 0px;
  margin-bottom: 0px;
 }
 
+/*set spans to have the color wheat (off-white)*/
+span{
+    color:wheat;
+}
+
+/*center text*/
 #main-head{
     text-align: center;
 }
 
+/*need to change to responsive titles (first part)*/
 .hero-header{
     text-align: center;
     
 }
 
+/*space the head-title from the news title*/
 #newshoptitle{
     padding-top: 213px;
     
 }
 
+/*bottom part (later)*/
 #newshoptitlebottom{
     padding-top: 100px;
     
 }
+
 /*
 #newshopdiscp{
     padding-left: calc(1200px - 100vw);
@@ -46,27 +59,38 @@ h1{
     background-size: cover;  
 }
 */
+
+/*color the titles*/
 .main-head1{
     color: wheat;
 }
 
+/*making the price and name flexable (being at the same pattern has to photos)*/
+#guitar-txt{
+    display: flex;
+    justify-content: space-between; 
+}
+
+/*making the name is at top left side of the photo and the price is on the top right by putting space between the name and price (both inside a span that orignized about to be like the photos)*/
+.name-price{
+    display: flex;
+    justify-content: space-between;
+    width: 244px;
+    text-align: center;
+}
+
+/*making the photos flexable (put the photos at even space from the to end)*/
 #guitar-imgs{
     display: flex;
     justify-content: space-between;
 }
-#img-post{
+
+/*making the name&price and the link be in the same line (display flex only) at the unique section*/
+#txt-link{
     display: flex; 
  }
 
-#img-post2{
-    display: flex; 
- }
-#guitar2-imgs{
-    width: 48vw;
-    margin-right: 2vw;
-    display: flex;
-    justify-content: space-between;
-}
+/*making the price and name flexable (being at the same pattern has to photos) adjusted to the unique section*/
 #guitar2-txt{
     width: 48vw;
     margin-right: 2vw;
@@ -74,6 +98,27 @@ h1{
     justify-content: space-between; 
 }
 
+/*setting the div that has the link (for the ability to put it in the same row)*/
+#post22{
+    width: 50vw;
+    color: wheat;
+    
+}
+
+ /*making the photos and and the txt posts be side by side (display flex only)*/
+ #img-post{
+    display: flex; 
+ }
+
+/*making the photos flexable (put the photos at even space from start to middle)*/
+#guitar2-imgs{
+    width: 48vw;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*making the posts flexable (putting them in a column, spaced from top to buttom)+giving them wheat color*/
 #post2{
     width: 50vw;
     color: wheat;
@@ -84,45 +129,20 @@ h1{
 
     
 }
+
+/*setting borders to the posts*/
 .border{
     width: 48vw;
     border: 2px solid #45cccc ;
 }
 
+/*set speical color for post border*/
 #stop{
     border:2px solid #ff0000 !important;
     
 }
-#post22{
-    width: 50vw;
-    color: wheat;
-    
-}
 
-span{
-    color: wheat;
-}
-
-.name-price{
-    
-    width: 244px;
-    text-align: center;
-}
-
-.name-price{
-    display: flex;
-    justify-content: space-between;
-}
-
-#guitar-txt{
-    display: flex;
-    justify-content: space-between; 
-}
-
-#guitar2-txt{
-    display: flex;
-    justify-content: space-between; 
-}
+/*set the click button (border+color)*/
 .gonextpage{
     border: solid pink 4px;
     margin: 20px;
@@ -130,13 +150,15 @@ span{
     color: antiquewhite;
 }
 
+/*set the last part (size&background)*/
 #footer{
     height: 350px;
-background-image: url(./Photos/background\ footer.jpg);
-background-repeat: no-repeat;
-background-size: cover;   
+    background-image: url(./Photos/background\ footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
 }
 
+/*making the scial media logo flexable (???)*/
 #social-medias{
     display: flex;
     justify-content: space-between;
