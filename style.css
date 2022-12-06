@@ -14,6 +14,16 @@ div{
     background-size: cover;   
 }
 
+#hero-news{
+    width: 50vw;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+
 /*define h1 has italic font without up&down margin*/
 h1{
  font-style: italic; /*find better*/
@@ -110,13 +120,6 @@ span{
     display: flex; 
  }
 
-/*making the photos flexable (put the photos at even space from start to middle)*/
-#guitar2-imgs{
-    width: 48vw;
-    margin-right: 2vw;
-    display: flex;
-    justify-content: space-between;
-}
 
 /*making the posts flexable (putting them in a column, spaced from top to buttom)+giving them wheat color*/
 #post2{
@@ -152,7 +155,7 @@ span{
 
 /*set the last part (size&background)*/
 #footer{
-    height: 350px;
+    height: 20%;
     background-image: url(./Photos/background\ footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;   
@@ -167,9 +170,24 @@ span{
 .item_conteiner{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    width: 98vw;
+    margin-right: 1vw;
+    margin-right: 1vw;
+
 }
 
-#unique{
-    width: 50vw;
+@media screen and (max-width: 1341px){
+
+    #hero-news{
+        margin-left: 0%;
+        margin-right: 0%;
+        float: right;
+    }
+
 }
+
+
+
+

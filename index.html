@@ -11,8 +11,10 @@
 <body id="base-bckgrnd">
     <div id="hero">
         <h1 id="main-head">RAW GUITARS &copy</h1>
-        <h1 class="hero-header" id="newshoptitle">new guitars!</h1>
-        <h1 class="hero-header" id="newshopdiscp">American Vintage & MonoNeon JazzBass</h1>
+        <div id="hero-news">
+            <h1 class="hero-header" id="newshoptitle">new guitars!</h1>
+            <h1 class="hero-header" id="newshopdiscp">American Vintage & MonoNeon JazzBass</h1>
+        </div>
     </div> 
 
     <div id="electric">
@@ -160,26 +162,27 @@
     <div id="unique">
         <h1 class="main-head1">more guitars:</h1> 
         
-        <div class="item_conteiner" id="unique">
-            <div class="item">
-                <div class="name-price">
-                    <span class="guitar-name">Banjo</span>
-                    <span class="giutar-price">150$</span>
+        <div id="img-post">
+            <div class="item_conteiner" id="unique">
+                <div class="item">
+                    <div class="name-price">
+                        <span class="guitar-name">Banjo</span>
+                        <span class="giutar-price">150$</span>
+                    </div>
+    
+                    <img src="./Photos/Banjo.jpg" alt="">
                 </div>
     
-                <img src="./Photos/Banjo.jpg" alt="">
-            </div>
-    
-            <div class="item">
+                <div class="item">
                 <div class="name-price">
                     <span class="guitar-name">Mandolin</span>
                     <span class="giutar-price">350$</span>
                 </div>
     
                 <img src="./Photos/Mandolin.jpg" alt="">
-            </div>
+                </div>
     
-        </div>
+            </div>
 
             <div id="post2">
                 <div class="border">
@@ -212,8 +215,8 @@
         <div id="social-medias">
             <a target="_blank" href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/600px-Instagram-Icon.png" alt="" width="109px"> </a>
             <a target="_blank" href="https://he-il.facebook.com/"><img src="https://play-lh.googleusercontent.com/J--_O-bAdNwLKs8XXsm9dTbt4B19wHXq6qGr5eCAJEagPrdC86aB8RieIkRdqKtSbNM" alt="" width="109px"> </a>
-            <a target="_blank" href="https://www.tiktok.com/en/"><img src="data:image/png;base64,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" alt="" width="109px"></a> 
-            <a target="_blank" href="https://www.snapchat.com/"><img src="https://play-lh.googleusercontent.com/KxeSAjPTKliCErbivNiXrd6cTwfbqUJcbSRPe_IBVK_YmwckfMRS1VIHz-5cgT09yMo" alt="" width="109px"> </a>
+            <a target="_blank" href="https://www.youtube.com/en/"><img src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc=w240-h480-rw" alt="" width="109px"></a> 
+            <a target="_blank" href="https://www.twitter.com/"><img src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" alt="" width="109px"> </a>
         </div>
         <h1 class="hero-header" id="newshoptitlebottom">RAW GUITARS is a new guitar brand that excusing his existace by selling a variety of high quality guitars by the worlds most known guitar company:"Fender"</h1>
 
