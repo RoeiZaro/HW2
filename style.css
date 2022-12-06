@@ -1,0 +1,143 @@
+#base-bckgrnd{
+    margin: 0px;
+    background: url(https://wallpapercave.com/wp/wp137339.jpg);
+}
+div{
+    margin: 0px;
+}
+#hero{
+    height: 600px;
+    background-image: url(./Photos/top\ background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+h1{
+ font-style: italic; /*find better*/
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+
+#main-head{
+    text-align: center;
+}
+
+.hero-header{
+    text-align: center;
+    
+}
+
+#newshoptitle{
+    padding-top: 213px;
+    
+}
+
+#newshoptitlebottom{
+    padding-top: 100px;
+    
+}
+/*
+#newshopdiscp{
+    padding-left: calc(1200px - 100vw);
+}
+
+#electric{
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+*/
+.main-head1{
+    color: wheat;
+}
+
+#guitar-imgs{
+    display: flex;
+    justify-content: space-between;
+}
+#img-post{
+    display: flex; 
+ }
+
+#img-post2{
+    display: flex; 
+ }
+#guitar2-imgs{
+    width: 48vw;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+#guitar2-txt{
+    width: 48vw;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: space-between; 
+}
+
+#post2{
+    width: 50vw;
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    
+}
+.border{
+    width: 48vw;
+    border: 2px solid #45cccc ;
+}
+
+#stop{
+    border:2px solid #ff0000 !important;
+    
+}
+#post22{
+    width: 50vw;
+    color: wheat;
+    
+}
+
+span{
+    color: wheat;
+}
+
+.name-price{
+    
+    width: 244px;
+    text-align: center;
+}
+
+.name-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+#guitar-txt{
+    display: flex;
+    justify-content: space-between; 
+}
+
+#guitar2-txt{
+    display: flex;
+    justify-content: space-between; 
+}
+.gonextpage{
+    border: solid pink 4px;
+    margin: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#footer{
+    height: 350px;
+background-image: url(./Photos/background\ footer.jpg);
+background-repeat: no-repeat;
+background-size: cover;   
+}
+
+#social-medias{
+    display: flex;
+    justify-content: space-between;
+}
